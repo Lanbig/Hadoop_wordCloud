@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 from wordcloud import WordCloud, STOPWORDS
 
+# Hive Connect
 def HiveConnector(subReddit , ip, port = 10000):
 	transport = TSocket.TSocket(ip,port)
 	transport = TTransport.TBufferedTransport(transport)
